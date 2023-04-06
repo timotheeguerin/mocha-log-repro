@@ -1,0 +1,5 @@
+{
+  "mochaExplorer.parallel": true,
+  "mochaExplorer.files": ["*.test.js"],
+  "mochaExplorer.timeout": 500000,
+}
