@@ -22,3 +22,9 @@ ReferenceError: strictEqual is not defined
     at process.processImmediate (node:internal/timers:471:21)
 
 ```
+
+The debugger also seems to not stop on break points.
+
+## Disable parallel
+
+setting `mochaExplorer.parallel": true` and `reload window` in vscode will then fix the problem.
